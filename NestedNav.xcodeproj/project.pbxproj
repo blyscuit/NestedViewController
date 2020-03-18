@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68B52BDC2421EB7600874E74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B52BDB2421EB7600874E74 /* AppDelegate.swift */; };
+		68B52BDE2421EB7600874E74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B52BDD2421EB7600874E74 /* SceneDelegate.swift */; };
+		68B52BE02421EB7600874E74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B52BDF2421EB7600874E74 /* ViewController.swift */; };
+		68B52BE32421EB7600874E74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B52BE12421EB7600874E74 /* Main.storyboard */; };
+		68B52BE52421EB7900874E74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68B52BE42421EB7900874E74 /* Assets.xcassets */; };
+		68B52BE82421EB7900874E74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B52BE62421EB7900874E74 /* LaunchScreen.storyboard */; };
+		68B52BF32421EB7900874E74 /* NestedNavTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B52BF22421EB7900874E74 /* NestedNavTests.swift */; };
+		68B52BFE2421EB7900874E74 /* NestedNavUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B52BFD2421EB7900874E74 /* NestedNavUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68B52BEF2421EB7900874E74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68B52BD02421EB7600874E74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68B52BD72421EB7600874E74;
+			remoteInfo = NestedNav;
+		};
+		68B52BFA2421EB7900874E74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68B52BD02421EB7600874E74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68B52BD72421EB7600874E74;
+			remoteInfo = NestedNav;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68B52BD82421EB7600874E74 /* NestedNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NestedNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B52BDB2421EB7600874E74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		68B52BDD2421EB7600874E74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		68B52BDF2421EB7600874E74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		68B52BE22421EB7600874E74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68B52BE42421EB7900874E74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68B52BE72421EB7900874E74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68B52BE92421EB7900874E74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68B52BEE2421EB7900874E74 /* NestedNavTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NestedNavTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B52BF22421EB7900874E74 /* NestedNavTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedNavTests.swift; sourceTree = "<group>"; };
+		68B52BF42421EB7900874E74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68B52BF92421EB7900874E74 /* NestedNavUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NestedNavUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B52BFD2421EB7900874E74 /* NestedNavUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedNavUITests.swift; sourceTree = "<group>"; };
+		68B52BFF2421EB7900874E74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68B52BD52421EB7600874E74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B52BEB2421EB7900874E74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B52BF62421EB7900874E74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68B52BCF2421EB7600874E74 = {
+			isa = PBXGroup;
+			children = (
+				68B52BDA2421EB7600874E74 /* NestedNav */,
+				68B52BF12421EB7900874E74 /* NestedNavTests */,
+				68B52BFC2421EB7900874E74 /* NestedNavUITests */,
+				68B52BD92421EB7600874E74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68B52BD92421EB7600874E74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68B52BD82421EB7600874E74 /* NestedNav.app */,
+				68B52BEE2421EB7900874E74 /* NestedNavTests.xctest */,
+				68B52BF92421EB7900874E74 /* NestedNavUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68B52BDA2421EB7600874E74 /* NestedNav */ = {
+			isa = PBXGroup;
+			children = (
+				68B52BDB2421EB7600874E74 /* AppDelegate.swift */,
+				68B52BDD2421EB7600874E74 /* SceneDelegate.swift */,
+				68B52BDF2421EB7600874E74 /* ViewController.swift */,
+				68B52BE12421EB7600874E74 /* Main.storyboard */,
+				68B52BE42421EB7900874E74 /* Assets.xcassets */,
+				68B52BE62421EB7900874E74 /* LaunchScreen.storyboard */,
+				68B52BE92421EB7900874E74 /* Info.plist */,
+			);
+			path = NestedNav;
+			sourceTree = "<group>";
+		};
+		68B52BF12421EB7900874E74 /* NestedNavTests */ = {
+			isa = PBXGroup;
+			children = (
+				68B52BF22421EB7900874E74 /* NestedNavTests.swift */,
+				68B52BF42421EB7900874E74 /* Info.plist */,
+			);
+			path = NestedNavTests;
+			sourceTree = "<group>";
+		};
+		68B52BFC2421EB7900874E74 /* NestedNavUITests */ = {
+			isa = PBXGroup;
+			children = (
+				68B52BFD2421EB7900874E74 /* NestedNavUITests.swift */,
+				68B52BFF2421EB7900874E74 /* Info.plist */,
+			);
+			path = NestedNavUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68B52BD72421EB7600874E74 /* NestedNav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68B52C022421EB7900874E74 /* Build configuration list for PBXNativeTarget "NestedNav" */;
+			buildPhases = (
+				68B52BD42421EB7600874E74 /* Sources */,
+				68B52BD52421EB7600874E74 /* Frameworks */,
+				68B52BD62421EB7600874E74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NestedNav;
+			productName = NestedNav;
+			productReference = 68B52BD82421EB7600874E74 /* NestedNav.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68B52BED2421EB7900874E74 /* NestedNavTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68B52C052421EB7900874E74 /* Build configuration list for PBXNativeTarget "NestedNavTests" */;
+			buildPhases = (
+				68B52BEA2421EB7900874E74 /* Sources */,
+				68B52BEB2421EB7900874E74 /* Frameworks */,
+				68B52BEC2421EB7900874E74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68B52BF02421EB7900874E74 /* PBXTargetDependency */,
+			);
+			name = NestedNavTests;
+			productName = NestedNavTests;
+			productReference = 68B52BEE2421EB7900874E74 /* NestedNavTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		68B52BF82421EB7900874E74 /* NestedNavUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68B52C082421EB7900874E74 /* Build configuration list for PBXNativeTarget "NestedNavUITests" */;
+			buildPhases = (
+				68B52BF52421EB7900874E74 /* Sources */,
+				68B52BF62421EB7900874E74 /* Frameworks */,
+				68B52BF72421EB7900874E74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68B52BFB2421EB7900874E74 /* PBXTargetDependency */,
+			);
+			name = NestedNavUITests;
+			productName = NestedNavUITests;
+			productReference = 68B52BF92421EB7900874E74 /* NestedNavUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68B52BD02421EB7600874E74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = 23;
+				TargetAttributes = {
+					68B52BD72421EB7600874E74 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					68B52BED2421EB7900874E74 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 68B52BD72421EB7600874E74;
+					};
+					68B52BF82421EB7900874E74 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 68B52BD72421EB7600874E74;
+					};
+				};
+			};
+			buildConfigurationList = 68B52BD32421EB7600874E74 /* Build configuration list for PBXProject "NestedNav" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68B52BCF2421EB7600874E74;
+			productRefGroup = 68B52BD92421EB7600874E74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68B52BD72421EB7600874E74 /* NestedNav */,
+				68B52BED2421EB7900874E74 /* NestedNavTests */,
+				68B52BF82421EB7900874E74 /* NestedNavUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68B52BD62421EB7600874E74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B52BE82421EB7900874E74 /* LaunchScreen.storyboard in Resources */,
+				68B52BE52421EB7900874E74 /* Assets.xcassets in Resources */,
+				68B52BE32421EB7600874E74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B52BEC2421EB7900874E74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B52BF72421EB7900874E74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68B52BD42421EB7600874E74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B52BE02421EB7600874E74 /* ViewController.swift in Sources */,
+				68B52BDC2421EB7600874E74 /* AppDelegate.swift in Sources */,
+				68B52BDE2421EB7600874E74 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B52BEA2421EB7900874E74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B52BF32421EB7900874E74 /* NestedNavTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B52BF52421EB7900874E74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B52BFE2421EB7900874E74 /* NestedNavUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68B52BF02421EB7900874E74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68B52BD72421EB7600874E74 /* NestedNav */;
+			targetProxy = 68B52BEF2421EB7900874E74 /* PBXContainerItemProxy */;
+		};
+		68B52BFB2421EB7900874E74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68B52BD72421EB7600874E74 /* NestedNav */;
+			targetProxy = 68B52BFA2421EB7900874E74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68B52BE12421EB7600874E74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68B52BE22421EB7600874E74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68B52BE62421EB7900874E74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68B52BE72421EB7900874E74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68B52C002421EB7900874E74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		68B52C012421EB7900874E74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68B52C032421EB7900874E74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93QF44Z6JU;
+				INFOPLIST_FILE = NestedNav/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.confusians.NestedNav;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68B52C042421EB7900874E74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93QF44Z6JU;
+				INFOPLIST_FILE = NestedNav/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.confusians.NestedNav;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		68B52C062421EB7900874E74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93QF44Z6JU;
+				INFOPLIST_FILE = NestedNavTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.confusians.NestedNavTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NestedNav.app/NestedNav";
+			};
+			name = Debug;
+		};
+		68B52C072421EB7900874E74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93QF44Z6JU;
+				INFOPLIST_FILE = NestedNavTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.confusians.NestedNavTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NestedNav.app/NestedNav";
+			};
+			name = Release;
+		};
+		68B52C092421EB7900874E74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93QF44Z6JU;
+				INFOPLIST_FILE = NestedNavUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.confusians.NestedNavUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NestedNav;
+			};
+			name = Debug;
+		};
+		68B52C0A2421EB7900874E74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93QF44Z6JU;
+				INFOPLIST_FILE = NestedNavUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.confusians.NestedNavUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NestedNav;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68B52BD32421EB7600874E74 /* Build configuration list for PBXProject "NestedNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B52C002421EB7900874E74 /* Debug */,
+				68B52C012421EB7900874E74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68B52C022421EB7900874E74 /* Build configuration list for PBXNativeTarget "NestedNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B52C032421EB7900874E74 /* Debug */,
+				68B52C042421EB7900874E74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68B52C052421EB7900874E74 /* Build configuration list for PBXNativeTarget "NestedNavTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B52C062421EB7900874E74 /* Debug */,
+				68B52C072421EB7900874E74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68B52C082421EB7900874E74 /* Build configuration list for PBXNativeTarget "NestedNavUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B52C092421EB7900874E74 /* Debug */,
+				68B52C0A2421EB7900874E74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68B52BD02421EB7600874E74 /* Project object */;
+}
