@@ -15,6 +15,9 @@
 		68B52BE82421EB7900874E74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B52BE62421EB7900874E74 /* LaunchScreen.storyboard */; };
 		68B52BF32421EB7900874E74 /* NestedNavTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B52BF22421EB7900874E74 /* NestedNavTests.swift */; };
 		68B52BFE2421EB7900874E74 /* NestedNavUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B52BFD2421EB7900874E74 /* NestedNavUITests.swift */; };
+		68B52C0C2421EB9C00874E74 /* NavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B52C0B2421EB9C00874E74 /* NavViewController.swift */; };
+		68B52C4B2424942B00874E74 /* NestedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B52C4A2424942B00874E74 /* NestedViewController.swift */; };
+		68D6F6702444436000C236CA /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D6F66F2444436000C236CA /* UIExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		68B52BF92421EB7900874E74 /* NestedNavUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NestedNavUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68B52BFD2421EB7900874E74 /* NestedNavUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedNavUITests.swift; sourceTree = "<group>"; };
 		68B52BFF2421EB7900874E74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68B52C0B2421EB9C00874E74 /* NavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavViewController.swift; sourceTree = "<group>"; };
+		68B52C4A2424942B00874E74 /* NestedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedViewController.swift; sourceTree = "<group>"; };
+		68D6F66F2444436000C236CA /* UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,10 @@
 				68B52BDB2421EB7600874E74 /* AppDelegate.swift */,
 				68B52BDD2421EB7600874E74 /* SceneDelegate.swift */,
 				68B52BDF2421EB7600874E74 /* ViewController.swift */,
+				68B52C0B2421EB9C00874E74 /* NavViewController.swift */,
+				68B52C4A2424942B00874E74 /* NestedViewController.swift */,
+				68D6F66F2444436000C236CA /* UIExtension.swift */,
+				68D6F66E2444413C00C236CA /* Demo */,
 				68B52BE12421EB7600874E74 /* Main.storyboard */,
 				68B52BE42421EB7900874E74 /* Assets.xcassets */,
 				68B52BE62421EB7900874E74 /* LaunchScreen.storyboard */,
@@ -126,6 +136,13 @@
 				68B52BFF2421EB7900874E74 /* Info.plist */,
 			);
 			path = NestedNavUITests;
+			sourceTree = "<group>";
+		};
+		68D6F66E2444413C00C236CA /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +277,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				68B52BE02421EB7600874E74 /* ViewController.swift in Sources */,
+				68D6F6702444436000C236CA /* UIExtension.swift in Sources */,
 				68B52BDC2421EB7600874E74 /* AppDelegate.swift in Sources */,
+				68B52C4B2424942B00874E74 /* NestedViewController.swift in Sources */,
+				68B52C0C2421EB9C00874E74 /* NavViewController.swift in Sources */,
 				68B52BDE2421EB7600874E74 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
