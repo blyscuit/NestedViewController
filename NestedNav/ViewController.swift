@@ -31,9 +31,14 @@ class ViewController: UIViewController {
     }
     
     @IBAction func same_nav(_ sender: Any) {
-            
         let cvc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "ViewController")
         navigationController?.pushViewController(cvc, animated: true)
     }
+    
+    /// 100% crash
+//    @IBAction func push_nav(_ sender: Any) {
+//        let navVC = UINavigationController(rootViewController: ViewController())
+//        navigationController?.pushViewController(navVC, animated: true)
+//    }
     
 }

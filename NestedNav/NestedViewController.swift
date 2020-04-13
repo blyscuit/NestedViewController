@@ -13,7 +13,7 @@ class NestedViewController: UIViewController {
     var rootVC: UIViewController
     weak var rootNavigation: UINavigationController?
     
-    
+    // 1
     init(rootNavigation: UINavigationController) {
         guard let vc = rootNavigation.viewControllers.first else {
             fatalError("root has not been initialized")
@@ -30,6 +30,7 @@ class NestedViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // 2
         let childNavigation = rootNavigation ?? UINavigationController(rootViewController: rootVC)
         childNavigation.willMove(toParent: self)
         addChild(childNavigation)
@@ -39,7 +40,7 @@ class NestedViewController: UIViewController {
         
         childNavigation.navigationBar.isTranslucent = false
         
-        
+        // 3
         rootVC.navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .close, target: nil, action: #selector(back))
 
     }

@@ -8,10 +8,6 @@
 
 import UIKit
 
-protocol NavDelegate {
-    func didPresent()
-}
-
 class NavViewController: UINavigationController {
 
     private let alwaysPoppableDelegate = AlwaysPoppableDelegate()
